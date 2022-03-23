@@ -230,7 +230,7 @@ function setEstimate(time) {
 function render() {
 
     data.forEach((todo) => {
-        const template = todoTemplate(todo)    // почему тут сработает деструктуризация, когда мы передаём в эту функцию объект?
+        const template = todoTemplate(todo)   
 
         result = result + template
     })
