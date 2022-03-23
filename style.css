@@ -1,0 +1,122 @@
+body {
+    background: url(./background.jpg);
+    padding: 1rem;
+}
+
+.island__item {
+    color: white;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    order: 1;
+}
+
+
+.island+.island {
+    margin-top: 1rem;
+}
+
+.island__item_checked {
+    order: 2;
+}
+ 
+.island__item_checked label{
+    text-decoration: line-through;
+}
+
+.btn {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-edit{
+    height: 30px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: brown;
+    border-color: brown;
+}
+
+.btn-remove{
+    height: 30px;
+    padding-bottom: 35px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.btn-save {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(100, 65, 136);
+    border-color: rgb(100, 65, 136);
+   
+}
+
+.btn-save:hover{
+    background-color: rgb(80, 58, 102);
+    color: white;
+    border-color: rgb(80, 58, 102);
+}
+
+.form-control {
+    border: none;
+}
+
+
+.form-check-input {
+    min-width: 1em;
+}
+
+
+.form-select {
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-border: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.form-edit {
+    display: none;
+}
+
+.island__item_edit .form-edit {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.island__item_edit label{
+    display: none;
+}
+
+.island__item_edit .btn-edit {
+    display: none;
+}
+
+
+.estimate {
+    width: 65px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.estimate::placeholder {
+    color: white;
+    font-size: 12px;
+}
+
+.estimate::-webkit-inner-spin-button {
+    opacity: 0.4;
+}
