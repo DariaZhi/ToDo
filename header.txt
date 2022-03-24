@@ -1,12 +1,7 @@
+<<<<<<< HEAD
 changes from <master>
 new changes from master
-
-
-
-
-
-
-
-
-
+I need press "i" to print here
+and wq! to go out
+smth new
 
